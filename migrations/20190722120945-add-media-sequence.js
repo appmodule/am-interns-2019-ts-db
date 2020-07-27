@@ -6,7 +6,7 @@ module.exports = {
       'saved_chunks',
       'media_sequence',
       {
-        type: Sequelize.INTEGER,
+        type: Sequelize.BIGINT(14),
         allowNull: false
       }
     );
